@@ -1,0 +1,107 @@
+/* viết cho PC */
+@media (min-with: 1024px) {
+  #footer {
+    background-color: red;
+  }
+
+  #nav > li {
+    /* display: block; */
+    float: left;
+  }
+}
+/* viết cho tablet */
+@media (max-width: 1023px) and (min-width: 740px) {
+  #footer {
+    background-color: red;
+  }
+  .tickets-list {
+    width: 100%;
+  }
+}
+/* viết cho mobile */
+@media (max-width: 739px) {
+ 
+  #header .search-btn {
+    display: none;
+  }
+  #header .mobile-menu-btn{
+    display: block;
+    padding: 14px;
+  }
+  #header {
+    overflow: hidden;
+  }
+  #contact {
+    width: 100%;
+    }
+
+  #nav > li {
+    float: none;
+  }
+  #nav .subnav {
+    position: initial;
+    background-color: #333;
+  }
+  #nav .subnav a{
+    color: #fff;
+    padding: 5px 41px;
+  }
+  #nav > li:first-child{
+    display: inline-block;
+  }
+  #nav > li {
+    display: block;
+  }
+  #nav {
+    display: block;
+  }
+  .tickets-list {
+    width: 100%;
+  }
+  #nav li a{
+    padding: 1px 24px;
+  }
+  #content .member-item {
+    margin-top: 46px;
+    width: 100%;
+  }
+  .member-img {
+    width: 60%;
+    /* padding: 20px; */
+  }
+  .places-item {
+    width: 100%;
+    padding-bottom: 16px;
+  }
+  .places-list{
+    width: 100%;
+  }
+  .member-name {
+    padding-bottom: 16px;
+  }
+  .w3-helf{
+    float: none;
+    width: 100%;
+  }
+  .contact-item{
+    float: none;
+    width: 100%;
+  }
+  .section-sub-heading{
+    margin-top: 25px;
+    margin-bottom: 46px
+  }
+  .test{
+    margin-top: 8px;
+  }
+  .contact2{
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .places-buy-btn{
+    width: 100%;
+  }
+  /* #slider .text-description { */
+
+  }
